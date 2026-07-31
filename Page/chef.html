@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Chefs - Gestão</title>
+    <link rel="stylesheet" href="chef.css">
+</head>
+<body>
+    <nav>
+        <h2>Menu Gestão</h2>
+        <a href="index.html">Página Inicial</a>
+        <a href="pratos.html">Cadastro de Pratos</a>
+        <a href="categorias.html">Categorias</a>
+        <a href="chefs.html" class="active">Cadastro de Chefs</a>
+        <a href="fornecedores.html">Fornecedores</a>
+    </nav>
+
+    <main>
+        <section class="page">
+            <h1>Cadastrar Chef</h1>
+            <form onsubmit="event.preventDefault(); alert('Chef cadastrado com sucesso!');">
+                <div class="form-group">
+                    <label for="nome-chef">Nome do Chef</label>
+                    <input type="text" id="nome-chef" required placeholder="Ex: Alex Atala">
+                </div>
+                <div class="form-group">
+                    <label for="cargo">Cargo</label>
+                    <input type="text" id="cargo" required placeholder="Ex: Chef Executivo, Sous Chef">
+                </div>
+                <button type="submit">Salvar Chef</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
