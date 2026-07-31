@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Categorias - Gestão</title>
+    <link rel="stylesheet" href="categoria.css">
+</head>
+<body>
+    <nav>
+        <h2>Menu Gestão</h2>
+        <a href="index.html">Página Inicial</a>
+        <a href="pratos.html">Cadastro de Pratos</a>
+        <a href="categorias.html" class="active">Categorias</a>
+        <a href="chefs.html">Cadastro de Chefs</a>
+        <a href="fornecedores.html">Fornecedores</a>
+    </nav>
+
+    <main>
+        <section class="page">
+            <h1>Categorias do Cardápio</h1>
+            <form onsubmit="event.preventDefault(); alert('Categoria vinculada com sucesso!');">
+                <div class="form-group">
+                    <label for="tipo-categoria">Selecione o Tipo</label>
+                    <select id="tipo-categoria" required>
+                        <option value="">Selecione...</option>
+                        <option value="entrada">Entrada</option>
+                        <option value="prato-principal">Prato Principal</option>
+                        <option value="sobremesa">Sobremesa</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="nome-item">Nome do Item a Categorizar</label>
+                    <input type="text" id="nome-item" required placeholder="Ex: Pudim de Leite">
+                </div>
+                <button type="submit">Salvar Categoria</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

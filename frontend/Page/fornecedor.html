@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Fornecedores - Gestão</title>
+    <link rel="stylesheet" href="fornecedo.css"> 
+</head>
+<body>
+    <nav>
+        <h2>Menu Gestão</h2>
+        <a href="index.html">Página Inicial</a>
+        <a href="pratos.html">Cadastro de Pratos</a>
+        <a href="categorias.html">Categorias</a>
+        <a href="chefs.html">Cadastro de Chefs</a>
+        <a href="fornecedores.html" class="active">Fornecedores</a>
+    </nav>
+
+    <main>
+        <section class="page">
+            <h1>Cadastrar Fornecedor</h1>
+            <form onsubmit="event.preventDefault(); alert('Fornecedor cadastrado com sucesso!');">
+                <div class="form-group">
+                    <label for="nome-fornecedor">Nome / Razão Social</label>
+                    <input type="text" id="nome-fornecedor" required placeholder="Ex: Hortifruti Silva">
+                </div>
+                <div class="form-group">
+                    <label for="cnpj">CNPJ</label>
+                    <input type="text" id="cnpj" required placeholder="00.000.000/0001-00">
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" required placeholder="(00) 00000-0000">
+                </div>
+                <button type="submit">Salvar Fornecedor</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
