@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import com.example.cardapio.Entities.Categoria;
+import com.example.cardapio.Services.CategoriaService;
 
 import jakarta.validation.Valid;
 

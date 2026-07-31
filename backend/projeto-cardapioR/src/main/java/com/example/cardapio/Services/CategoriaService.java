@@ -33,7 +33,7 @@ public class CategoriaService {
 
             catAtualizada.setEntrada(categoriaAlterada.getEntrada());
             catAtualizada.setPratoPrincipal(categoriaAlterada.getPratoPrincipal());
-            catAtualizada.setSobremesa(categorialAlterada.getSobremesa());
+            catAtualizada.setSobremesa(categoriaAlterada.getSobremesa());
 
             return repository.save(catAtualizada);
         }
