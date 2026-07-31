@@ -20,7 +20,7 @@ body {
     color: var(--text-color);
 }
 
-/* Menu Lateral */
+
 nav {
     width: 250px;
     background-color: var(--primary-color);
@@ -51,7 +51,7 @@ nav a:hover, nav a.active {
     border-left: 4px solid var(--accent-color);
 }
 
-/* Área de Conteúdo */
+
 main {
     flex: 1;
     padding: 40px;
@@ -70,7 +70,7 @@ h1 {
     color: var(--primary-color);
 }
 
-/* Formulários */
+
 .form-group {
     margin-bottom: 15px;
 }
@@ -104,7 +104,7 @@ button:hover {
     background-color: #c0392b;
 }
 
-/* Botões da Home */
+
 .home-cards {
     display: flex;
     gap: 20px;
