@@ -2,12 +2,14 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início - Gestão</title>
     <link rel="stylesheet" href="Style/style.css">
 </head>
 <body>
     <nav>
         <h2>Menu Gestão</h2>
+        <a href="index.html">Página Inicial</a>
         <a href="prato.html">Cadastro de Pratos</a>
         <a href="categoria.html">Categorias</a>
         <a href="chef.html">Cadastro de Chefs</a>
@@ -18,16 +20,84 @@
         <section class="page">
             <h1>Bem-vindo ao Sistema</h1>
             <p>Selecione abaixo o que você deseja cadastrar ou gerenciar hoje:</p>
+
             <div class="home-cards">
-                <a href="pratos.html" class="card">
+                <a href="prato.html" class="card">
                     <h3>🍽️ Cadastrar Prato</h3>
                 </a>
-                <a href="chefs.html" class="card">
+                <a href="categoria.html" class="card">
+                    <h3>🏷️ Categorias</h3>
+                </a>
+                <a href="chef.html" class="card">
                     <h3>👨‍🍳 Cadastrar Chef</h3>
                 </a>
-                <a href="fornecedores.html" class="card">
+                <a href="fornecedor.html" class="card">
                     <h3>🚚 Cadastrar Fornecedor</h3>
                 </a>
+            </div>
+
+            <div class="registered-section">
+                <h2>Registros do Sistema</h2>
+                
+                <div class="tables-grid">
+                    <div class="table-card">
+                        <h3>🍽️ Pratos</h3>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Nome</th>
+                                        <th>Ingredientes</th>
+                                        <th>Peso</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="table-card">
+                        <h3>🏷️ Categorias</h3>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Tipo</th>
+                                        <th>Exemplo / Descrição</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="table-card">
+                        <h3>👨‍🍳 Chefs</h3>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Nome</th>
+                                        <th>Cargo</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="table-card">
+                        <h3>🚚 Fornecedores</h3>
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Nome</th>
+                                        <th>CNPJ</th>
+                                        <th>Telefone</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
