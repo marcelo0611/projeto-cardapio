@@ -25,14 +25,14 @@ public class Prato {
 	private String peso;
 	
 	public Prato() {
-		
+	
 	}
 	
 	public Prato(String ingredientes, String peso) {
 		this.ingredientes = ingredientes;
 		this.peso = peso;
 	}
-
+	
 	public Long getId() {
 		return id;
 	}
